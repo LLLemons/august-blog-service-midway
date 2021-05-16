@@ -43,3 +43,6 @@ $ npm stop
     "check": "luckyeye"
 
 [midway]: https://midwayjs.org
+
+- npm run build
+- NODE_ENV=production pm2 start ./bootstrap.js --name midway_app -i 4
