@@ -8,7 +8,7 @@ const socket = new SocketFramework().configure({
   port: 7002,
   path: '/editor',
   cors: {
-    origin: "http://localhost:8000",
+    origin: "http://175.24.95.135:8083",
     methods: ["GET", "POST"]
   }
 })
